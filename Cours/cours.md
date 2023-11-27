@@ -182,3 +182,18 @@ Le vendeur cree alors les documents de la liasse a l'aide des methodes construit
 L'ensemble des classes du pattern Builder sont decrites ci-dessous:
 
 ![Alt text](image-5.png)
+
+#### Schema Abstrait:
+
+![Alt text](image-6.png)
+
+#### Diagramme de sequence:
+
+![Alt text](image-7.png)
+
+#### Domaines d'application:
+
+Le pattern est utilise dans les cas suivants:
+
+- Un client a besoin de construire des objets complexes sans avoir a se soucier de leur implementation.
+- Un client a besoin de construire des objets complexes ayant des representations differentes.
