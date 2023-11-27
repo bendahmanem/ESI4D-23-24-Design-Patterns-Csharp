@@ -135,7 +135,7 @@ Cet exemple temoigne de la complexite du parametrage du mecanisme de creation d'
 
 ## Les patterns de creation
 
-### Abstract Factory
+### Abstract Factory
 
 #### Definition:
 Fournit une interface pour la creation de familles d'objets lies ou dependants sans preciser leur classe concrete.
@@ -158,10 +158,16 @@ L’objet prend alors pour paramètre une instance répondant à l’interface, 
 instance de `FabriqueVehiculeEssence` . Avec une telle instance, le `Catalogue` peut créer et manipuler des véhicules sans devoir connaître les familles de véhicule et les classes concrètes
 d’instanciation correspondantes.
 
-### Schema UML:
+#### Schema UML:
 
 ![Alt text](image-3.png)
 
-### Structure generique du pattern:
+#### Structure generique du pattern:
 
 ![Alt text](image-4.png)
+
+### Builder
+
+#### Definition:
+
+Le but est de separer la construction d'objets complexes de leur implementation de sorte qu'un client puisse creer ces objets sans avoir a se soucier de leur implementation.
