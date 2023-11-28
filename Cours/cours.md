@@ -290,4 +290,15 @@ Voici typiquement le type de diagramme qu'on aurait pu obtenir si on avait intro
 
 #### Structure generique du pattern
 
+![Alt text](image-15.png)
+
+### Le pattern Composite
+
 ![Alt text](image-14.png)
+<u>source: refactoring guru</u>
+
+Imaginez un systeme qui permet de recuperer les informations du parc automobile d'une societe mere, de ses filiales et de ses sous-filiales. On souhaite pouvoir afficher les informations de chaque filiale et sous-filiale de maniere hierarchique ou en une seule fois.
+
+Vous aurez besoin d'une classe abstraite Societeqio servira d'interface pour les differents clients du systeme.
+
+La societe mere detient ce qu'on appelle un relation d'aggregation avec la classe Societe qui represent les liens avec les differentes filiales.
