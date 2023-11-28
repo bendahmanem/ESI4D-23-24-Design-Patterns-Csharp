@@ -262,7 +262,16 @@ A l'aide du code source creer le diagramme UML du pattern Adapter.
 
 Les participants du pattern a inculre sont les suivants :
 
-- Interface
-- Client
-- L'adaptateur
-- L'adapté
+- Interface: introduit les signatures de la classe Document
+- Client: interagit uniquement avec des objets dont l'interface est Document
+- L'adaptateur: implemente les methodes de l'interface Document et contient une instance de la classe adaptee (DocumentPdf)
+- L'adapté: presente l'objet dont l'interface doit etre adapteed (ComposantPdf)
+
+Solution:
+
+![Alt text](image-11.png)
+
+#### Cas d'utilisation:
+
+- Un client a besoin d'utiliser une classe qui possede une interface incompatible avec celle dont il a besoin.
+- On peut fournir des interfaces differentes a un objet au moment de sa conception
