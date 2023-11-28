@@ -275,3 +275,19 @@ Solution:
 
 - Un client a besoin d'utiliser une classe qui possede une interface incompatible avec celle dont il a besoin.
 - On peut fournir des interfaces differentes a un objet au moment de sa conception
+
+### Le pattern Bridge (Pont)
+
+#### Definition:
+Ce pattern va nous permettre de separer l'implementation d'une classe de son interface. Il permet de creer une interface independante de l'implementation des classes.
+
+#### Contexte:
+On souhaite effectuer une demande d'immatriculation pour un vehicule. Il existe deux types de forumalaires : applet et html. On souhaite pouvoir utiliser l'un ou l'autre en fonction du client.
+Les demandes d'immatriculation provienne de deux pays differents : la France et le Luxembourg. On souhaite pouvoir utiliser l'un ou l'autre en fonction du client.
+
+Voici typiquement le type de diagramme qu'on aurait pu obtenir si on avait introduit une nouvelle sous-classe à chaque nouveau pays ajouté au systeme:
+![Alt text](image-13.png)
+
+#### Structure generique du pattern
+
+![Alt text](image-14.png)
