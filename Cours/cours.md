@@ -232,3 +232,37 @@ Definition: Le but de ce pattern est de garantir qu'une classe n'a qu'une seule 
 En se basant sur le diagramme UML du pattern précédent, créez une classe Liasse vierge qui illustre l'utilisation du pattern Singleton. Voici le diagramme general du pattern Singleton:
 
 ![Alt text](image-9.png)
+
+## Les patterns de structure
+
+L'objectif des patterns de structure est de fournir des mecanismes de composition de classes et d'objets pour former des structures plus complexes. On cherche a faciliter l'independancde de l'interface d'un objet et de son implementation.
+
+Les patterns de structuration vont venir encapsuler la composition des objets. On va ainsi augmenter le niveau d'abstraction du systeme, tout comme les patterns de creation qui encapsulent la creation d'instance d'objets.
+Les patterns de structuration vont mettre en avant les interfaces.
+
+Au sein des patterns de structuration, on retrouve les patterns suivants:
+
+- **Adpater**: Permet d'adapter une interface existante a une autre interface attendue par le client.
+- **Bridge**: Permet de separer l'implementation d'une classe de son interface.
+- **Composite**: Permet de traiter des objets composes et individuels de la meme maniere.
+- **Decorator**: Permet d'ajouter des fonctionnalites a un objet de maniere dynamique.
+- **Facade**: Permet de creer une interface unique pour un sous-systeme.
+- **Flyweight**: Permet de reduire l'utilisation de la memoire en partageant les objets qui sont identiques.
+- **Proxy**: Permet de creer un objet qui agit comme un representant d'un autre objet.
+
+### Le pattern Adapter
+
+#### Definition:
+
+Le but de ce pattern et de convertir l'interface d'une classe existante afin qu'elle puisse interagir avec d'autres classes.
+
+![Alt text](image-10.png)
+
+A l'aide du code source creer le diagramme UML du pattern Adapter.
+
+Les participants du pattern a inculre sont les suivants :
+
+- Interface
+- Client
+- L'adaptateur
+- L'adapté
