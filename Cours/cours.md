@@ -207,7 +207,7 @@ Definition: Le but de ce pattern est de permettre la creation d'objets en dupliq
 Contexte:
 Dans le cadre de la vente de vehicule, on genere toujours une liasse de documents. On retrouve toujours les memes documents dans la liasse.
 
-Nous allons creer une classe `Liasse` qui contient une listde documents vierges. Chaque instance sont des liasses qui contiennent des documents differents. Pour chaque on peut creer une ou plusieurs classes correpondantes.
+Nous allons creer une classe `Liasse` qui contient une liste de documents vierges. Chaque instance sont des liasses qui contiennent des documents differents. Pour chaque on peut creer une ou plusieurs classes correpondantes.
 
 #### Apercu du code:
 
