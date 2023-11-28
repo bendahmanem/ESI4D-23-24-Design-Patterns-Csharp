@@ -295,7 +295,7 @@ Voici typiquement le type de diagramme qu'on aurait pu obtenir si on avait intro
 ### Le pattern Composite
 
 ![Alt text](image-14.png)
-<u>source: refactoring guru</u>
+[Source: refactoring guru](https://refactoring.guru/fr/design-patterns/composite)
 
 Imaginez un systeme qui permet de recuperer les informations du parc automobile d'une societe mere, de ses filiales et de ses sous-filiales. On souhaite pouvoir afficher les informations de chaque filiale et sous-filiale de maniere hierarchique ou en une seule fois.
 
