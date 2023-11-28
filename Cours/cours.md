@@ -209,7 +209,7 @@ Dans le cadre de la vente de vehicule, on genere toujours une liasse de document
 
 Nous allons creer une classe `Liasse` qui contient une listde documents vierges. Chaque instance sont des liasses qui contiennent des documents differents. Pour chaque on peut creer une ou plusieurs classes correpondantes.
 
-### Apercu du code:
+#### Apercu du code:
 
 ```java
 using System.Collections;
@@ -221,6 +221,14 @@ public abstract class LiasseVierge
 }
 ```
 
-### Diagramme UML:
+#### Diagramme UML:
 
 ![Alt text](image-8.png)
+
+#### Singleton :
+
+Definition: Le but de ce pattern est de garantir qu'une classe n'a qu'une seule instance et de fournir un point d'acces global a cette instance.
+
+En se basant sur le diagramme UML du pattern précédent, créez une classe Liasse vierge qui illustre l'utilisation du pattern Singleton. Voici le diagramme general du pattern Singleton:
+
+![Alt text](image-9.png)
