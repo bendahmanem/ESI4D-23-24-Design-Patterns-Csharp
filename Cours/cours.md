@@ -299,6 +299,12 @@ Voici typiquement le type de diagramme qu'on aurait pu obtenir si on avait intro
 
 Imaginez un systeme qui permet de recuperer les informations du parc automobile d'une societe mere, de ses filiales et de ses sous-filiales. On souhaite pouvoir afficher les informations de chaque filiale et sous-filiale de maniere hierarchique ou en une seule fois.
 
-Vous aurez besoin d'une classe abstraite Societeqio servira d'interface pour les differents clients du systeme.
+Vous aurez besoin d'une classe abstraite Societe qui servira d'interface pour les differents clients du systeme.
 
 La societe mere detient ce qu'on appelle un relation d'aggregation avec la classe Societe qui represent les liens avec les differentes filiales.
+
+### Le pattern Decorator
+
+#### Definition:
+
+Le but de ce pattern est d'ajouter des fonctionnalites a un objet de maniere dynamique. Il permet d'etendre les fonctionnalites d'une classe sans avoir a modifier son code source.
