@@ -308,3 +308,33 @@ La societe mere detient ce qu'on appelle un relation d'aggregation avec la class
 #### Definition:
 
 Le but de ce pattern est d'ajouter des fonctionnalites a un objet de maniere dynamique. Il permet d'etendre les fonctionnalites d'une classe sans avoir a modifier son code source.
+
+## Les patterns de comportement
+
+Le concepteur d’un système d’objets est souvent confronté au problème de la découverte des objets. Celle-ci peut être réalisée à partir des deux aspects suivants :
+
+- La structuration des données.
+
+- La distribution des traitements et des algorithmes.
+
+Les patterns de structuration apportent des solutions aux problèmes de structuration des données et des objets.
+
+L’objectif des patterns de comportement est de fournir des solutions pour distribuer les traitements et les algorithmes entre les objets.
+
+Ces patterns organisent les objets ainsi que leurs interactions en spécifiant les flux de contrôle et de traitement au sein d’un système d’objets.
+
+### Definition:
+
+Le but de ce pattern est de definir une famille d'algorithmes, encapsuler chacun d'eux et les rendre interchangeables. Il permet de faire varier les algorithmes independamment des clients qui les utilisent.
+
+### Chain of Responsibility
+
+Pour mieux comprendre cette definition, attaquons nous a un exemple concret.
+
+#### Definition:
+
+#### Contexte
+
+Nous nous placons toujours dnas le cadre de la vente de vehicules.
+
+Nous souhaitons obtenir un systeme qui permet de fournir la description la plus precise possible d'un vehicule et lorsqu'une fonction qu'on va appeler `handler` ne peut pas fournir la description, on va passer la main a un autre `handler` qui va fournir une description plus generale.
