@@ -333,6 +333,16 @@ Pour mieux comprendre cette definition, attaquons nous a un exemple concret.
 
 #### Definition:
 
+### Diagramme UML:
+
+![Alt text](image-20.png)
+
+![Alt text](image-21.png)
+
+### Diagramme de sequence:
+
+![Alt text](image-22.png)
+
 #### Contexte
 
 Nous nous placons toujours dnas le cadre de la vente de vehicules.
