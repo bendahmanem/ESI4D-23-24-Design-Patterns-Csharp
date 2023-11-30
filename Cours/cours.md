@@ -338,3 +338,28 @@ Pour mieux comprendre cette definition, attaquons nous a un exemple concret.
 Nous nous placons toujours dnas le cadre de la vente de vehicules.
 
 Nous souhaitons obtenir un systeme qui permet de fournir la description la plus precise possible d'un vehicule et lorsqu'une fonction qu'on va appeler `handler` ne peut pas fournir la description, on va passer la main a un autre `handler` qui va fournir une description plus generale.
+
+#### Domaine d'application
+
+- une chaine d'objets est creee pour traiter une requete, le traitement se fait de facon dynamique
+- Le client n'est pas oblige de connaitre les objets de la chaine
+
+#### Structure generique du pattern
+
+![Alt text](image-16.png)
+
+### Iterator
+
+#### Definition:
+
+Le but de ce pattern est de fournir un moyen d'acceder sequentiellement aux elements d'un objet agregat sans exposer sa representation interne.
+
+#### Contexte:
+
+#### Structure du pattern:
+
+![Alt text](image-17.png)
+
+#### Structure generique du pattern:
+
+![Alt text](image-18.png)
